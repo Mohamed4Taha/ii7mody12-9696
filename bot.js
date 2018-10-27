@@ -65,7 +65,7 @@ client.on('message',async message => {
 
 client.on("ready", () => { // حقوق سيرفر اوميجا كودز
   function lol() {
-    client.guilds.get('484725335741431818').roles.find("name", ".").setColor("RANDOM");
+    client.guilds.get('484725335741431818').roles.find("name", "Rainbow").setColor("RANDOM");
   };
   setInterval(lol, 10000);
 });
