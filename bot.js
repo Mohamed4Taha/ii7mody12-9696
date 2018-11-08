@@ -100,3 +100,40 @@ client.on("guildMemberAdd", member => {
     }).catch(console.error)
 })
 
+
+
+
+//رابط اضافة البوت
+
+client.on('message', message => {
+      var prefix = "$"
+    if (message.author.bot) return;
+     if (message.content === prefix + "invite") {
+
+
+ message.author.sendMessage(RUBY CODS
+Created By : @ii7mody12#9696
+bot link : https://discordapp.com/oauth2/authorize?client_id=505858945265565697 &scope=bot&permissions=388160);
+
+message.channel.send('تم الارسال في الخاص');
+       
+       
+       
+ 
+       
+ //رسالة عالخاص
+       
+ client.on('message', function(message) {
+    if (message.channel.type === "dm") {
+        if (message.author.id === client.user.id) return;
+        var stewart = new Discord.RichEmbed()
+            .setColor('RANDOM')
+            .setTimestamp()
+            .setTitle('رساله جديده في خاص البوت')
+            .setThumbnail(${message.author.avatarURL})
+            .setDescription(\n\n`${message.content}
+)
+            .setFooter(من (@${message.author.tag})  |  (${message.author.id}))
+        client.channels.get("509418618031702048").send({ embed: stewart });
+    }
+});
