@@ -116,6 +116,6 @@ client.on("guildMemberAdd", member => {
             .setDescription(\n\n`${message.content}
 )
             .setFooter(من (@${message.author.tag})  |  (${message.author.id}))
-        client.channels.get("509418618031702048").send({ embed: stewart });
+        client.channels.get("509678403100737537").send({ embed: stewart });
     }
 });
